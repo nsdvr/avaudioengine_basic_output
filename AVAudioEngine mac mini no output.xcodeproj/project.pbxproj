@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369AA74721C3CB8600E6AF41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AA74621C3CB8600E6AF41 /* AppDelegate.m */; };
+		369AA74A21C3CB8600E6AF41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AA74921C3CB8600E6AF41 /* ViewController.m */; };
+		369AA74C21C3CB8700E6AF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369AA74B21C3CB8700E6AF41 /* Assets.xcassets */; };
+		369AA74F21C3CB8700E6AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369AA74D21C3CB8700E6AF41 /* Main.storyboard */; };
+		369AA75221C3CB8700E6AF41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AA75121C3CB8700E6AF41 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		369AA74221C3CB8600E6AF41 /* AVAudioEngine mac mini no output.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVAudioEngine mac mini no output.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369AA74521C3CB8600E6AF41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		369AA74621C3CB8600E6AF41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		369AA74821C3CB8600E6AF41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		369AA74921C3CB8600E6AF41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		369AA74B21C3CB8700E6AF41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		369AA74E21C3CB8700E6AF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		369AA75021C3CB8700E6AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369AA75121C3CB8700E6AF41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		369AA75321C3CB8700E6AF41 /* AVAudioEngine_mac_mini_no_output.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVAudioEngine_mac_mini_no_output.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369AA73F21C3CB8600E6AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369AA73921C3CB8600E6AF41 = {
+			isa = PBXGroup;
+			children = (
+				369AA74421C3CB8600E6AF41 /* AVAudioEngine mac mini no output */,
+				369AA74321C3CB8600E6AF41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369AA74321C3CB8600E6AF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369AA74221C3CB8600E6AF41 /* AVAudioEngine mac mini no output.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369AA74421C3CB8600E6AF41 /* AVAudioEngine mac mini no output */ = {
+			isa = PBXGroup;
+			children = (
+				369AA74521C3CB8600E6AF41 /* AppDelegate.h */,
+				369AA74621C3CB8600E6AF41 /* AppDelegate.m */,
+				369AA74821C3CB8600E6AF41 /* ViewController.h */,
+				369AA74921C3CB8600E6AF41 /* ViewController.m */,
+				369AA74B21C3CB8700E6AF41 /* Assets.xcassets */,
+				369AA74D21C3CB8700E6AF41 /* Main.storyboard */,
+				369AA75021C3CB8700E6AF41 /* Info.plist */,
+				369AA75121C3CB8700E6AF41 /* main.m */,
+				369AA75321C3CB8700E6AF41 /* AVAudioEngine_mac_mini_no_output.entitlements */,
+			);
+			path = "AVAudioEngine mac mini no output";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369AA74121C3CB8600E6AF41 /* AVAudioEngine mac mini no output */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369AA75621C3CB8700E6AF41 /* Build configuration list for PBXNativeTarget "AVAudioEngine mac mini no output" */;
+			buildPhases = (
+				369AA73E21C3CB8600E6AF41 /* Sources */,
+				369AA73F21C3CB8600E6AF41 /* Frameworks */,
+				369AA74021C3CB8600E6AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVAudioEngine mac mini no output";
+			productName = "AVAudioEngine mac mini no output";
+			productReference = 369AA74221C3CB8600E6AF41 /* AVAudioEngine mac mini no output.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369AA73A21C3CB8600E6AF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jakob Penca";
+				TargetAttributes = {
+					369AA74121C3CB8600E6AF41 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 369AA73D21C3CB8600E6AF41 /* Build configuration list for PBXProject "AVAudioEngine mac mini no output" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 369AA73921C3CB8600E6AF41;
+			productRefGroup = 369AA74321C3CB8600E6AF41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369AA74121C3CB8600E6AF41 /* AVAudioEngine mac mini no output */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369AA74021C3CB8600E6AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369AA74C21C3CB8700E6AF41 /* Assets.xcassets in Resources */,
+				369AA74F21C3CB8700E6AF41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369AA73E21C3CB8600E6AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369AA74A21C3CB8600E6AF41 /* ViewController.m in Sources */,
+				369AA75221C3CB8700E6AF41 /* main.m in Sources */,
+				369AA74721C3CB8600E6AF41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		369AA74D21C3CB8700E6AF41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369AA74E21C3CB8700E6AF41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369AA75421C3CB8700E6AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		369AA75521C3CB8700E6AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		369AA75721C3CB8700E6AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AVAudioEngine mac mini no output/AVAudioEngine_mac_mini_no_output.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84N6RZUNXA;
+				INFOPLIST_FILE = "AVAudioEngine mac mini no output/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.frm.AVAudioEngine-mac-mini-no-output";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		369AA75821C3CB8700E6AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AVAudioEngine mac mini no output/AVAudioEngine_mac_mini_no_output.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84N6RZUNXA;
+				INFOPLIST_FILE = "AVAudioEngine mac mini no output/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "space.frm.AVAudioEngine-mac-mini-no-output";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369AA73D21C3CB8600E6AF41 /* Build configuration list for PBXProject "AVAudioEngine mac mini no output" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369AA75421C3CB8700E6AF41 /* Debug */,
+				369AA75521C3CB8700E6AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369AA75621C3CB8700E6AF41 /* Build configuration list for PBXNativeTarget "AVAudioEngine mac mini no output" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369AA75721C3CB8700E6AF41 /* Debug */,
+				369AA75821C3CB8700E6AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369AA73A21C3CB8600E6AF41 /* Project object */;
+}
