@@ -7,12 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "Audio.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     // Do any additional setup after loading the view.
 }
 
@@ -23,5 +24,8 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)playButtonPressed:(NSButton *)sender {
+    [[Audio sharedInstance] play];
+}
 
 @end

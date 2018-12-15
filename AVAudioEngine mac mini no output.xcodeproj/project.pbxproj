@@ -12,6 +12,8 @@
 		369AA74C21C3CB8700E6AF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369AA74B21C3CB8700E6AF41 /* Assets.xcassets */; };
 		369AA74F21C3CB8700E6AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369AA74D21C3CB8700E6AF41 /* Main.storyboard */; };
 		369AA75221C3CB8700E6AF41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AA75121C3CB8700E6AF41 /* main.m */; };
+		369AA75B21C3CBCB00E6AF41 /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AA75A21C3CBCB00E6AF41 /* Audio.m */; };
+		369AA75D21C3D1E300E6AF41 /* HUUH.wav in Resources */ = {isa = PBXBuildFile; fileRef = 369AA75C21C3D1E300E6AF41 /* HUUH.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,9 @@
 		369AA75021C3CB8700E6AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		369AA75121C3CB8700E6AF41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		369AA75321C3CB8700E6AF41 /* AVAudioEngine_mac_mini_no_output.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AVAudioEngine_mac_mini_no_output.entitlements; sourceTree = "<group>"; };
+		369AA75921C3CBCB00E6AF41 /* Audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
+		369AA75A21C3CBCB00E6AF41 /* Audio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
+		369AA75C21C3D1E300E6AF41 /* HUUH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HUUH.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		369AA74421C3CB8600E6AF41 /* AVAudioEngine mac mini no output */ = {
 			isa = PBXGroup;
 			children = (
+				36DDB5BD21C3D55D00A89DD2 /* Audio Samples */,
 				369AA74521C3CB8600E6AF41 /* AppDelegate.h */,
 				369AA74621C3CB8600E6AF41 /* AppDelegate.m */,
 				369AA74821C3CB8600E6AF41 /* ViewController.h */,
@@ -66,8 +72,18 @@
 				369AA75021C3CB8700E6AF41 /* Info.plist */,
 				369AA75121C3CB8700E6AF41 /* main.m */,
 				369AA75321C3CB8700E6AF41 /* AVAudioEngine_mac_mini_no_output.entitlements */,
+				369AA75921C3CBCB00E6AF41 /* Audio.h */,
+				369AA75A21C3CBCB00E6AF41 /* Audio.m */,
 			);
 			path = "AVAudioEngine mac mini no output";
+			sourceTree = "<group>";
+		};
+		36DDB5BD21C3D55D00A89DD2 /* Audio Samples */ = {
+			isa = PBXGroup;
+			children = (
+				369AA75C21C3D1E300E6AF41 /* HUUH.wav */,
+			);
+			path = "Audio Samples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				369AA74C21C3CB8700E6AF41 /* Assets.xcassets in Resources */,
+				369AA75D21C3D1E300E6AF41 /* HUUH.wav in Resources */,
 				369AA74F21C3CB8700E6AF41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369AA75B21C3CBCB00E6AF41 /* Audio.m in Sources */,
 				369AA74A21C3CB8600E6AF41 /* ViewController.m in Sources */,
 				369AA75221C3CB8700E6AF41 /* main.m in Sources */,
 				369AA74721C3CB8600E6AF41 /* AppDelegate.m in Sources */,
